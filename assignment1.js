@@ -11,7 +11,9 @@ const PI = 3.145;
 circumferenceofcircle = 2 * PI * r;
 console.log(circumferenceofcircle);
 
-//let temp ="temp";
+let f = 30;
+c = (5 / 9) * (f - 32);
+console.log(c);
 
 let x = 3;
 let y = 2;
