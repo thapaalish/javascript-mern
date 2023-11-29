@@ -29,3 +29,14 @@ console.log(studentName);
 
 const x = 2;
 console.log(x);
+
+let y = "Hello";
+console.log(y);
+
+let z = {
+  name: "Alish thapa",
+  age: 22,
+};
+
+let num = 25;
+console.log(num);
