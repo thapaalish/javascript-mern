@@ -40,4 +40,4 @@ let q = "Dinesh";
 let r = "dinesh";
 console.log(q === r);
 
-// NaN = not a number is that its value is number and which example is nep20.
+// NaN = not a number is that its data type value is number and which example is nep20.
