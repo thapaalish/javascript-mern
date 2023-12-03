@@ -109,3 +109,11 @@ if (q > w && q > e) {
 } else {
   console.log(`${e} is greater.`);
 }
+
+let sth = "24";
+const isNumber = typeof sth === "number";
+if (isNumber) {
+  console.log(`${sth} is number.`);
+} else {
+  console.log(`${sth} isnot number`);
+}
