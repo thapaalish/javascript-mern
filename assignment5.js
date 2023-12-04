@@ -40,7 +40,7 @@
 // while (N != 0) {
 //   let A = N % 10;
 //   sum = sum + A;
-//   N = parseInt(N / 10);
+//   N = Math.floor(N / 10);
 // }
 
 // console.log(sum);
@@ -53,7 +53,7 @@
 
 // Write a JS code to print  square of numbers from 1 to n
 
-let N = 3;
-for (let i = 0; i <= N; i++) {
-  console.log(i * i);
-}
+// let N = 3;
+// for (let i = 0; i <= N; i++) {
+//   console.log(i * i);
+// }
