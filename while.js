@@ -59,13 +59,28 @@
 // console.log(sum);
 
 // prime or composite
-let n = 4;
-for (let i = 2; i < n; i++) {
-  if (n % i !== 0) {
-    console.log("prime");
-    break;
-  } else {
-    console.log("comp");
-    break;
+// let n = 4;
+// for (let i = 2; i < n; i++) {
+//   if (n % i !== 0) {
+//     console.log("prime");
+//     break;
+//   } else {
+//     console.log("comp");
+//     break;
+//   }
+// }
+
+let n = 8;
+for (let i = 2; i <= n; i++) {
+  let isPrime = true;
+  for (let j = 2; j < i; j++) {
+    if (i % j === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) {
+    console.log(`${i} is Prime`);
   }
 }
