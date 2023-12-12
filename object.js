@@ -54,26 +54,28 @@ bikeDetails["torque"] = "15Nm";
 
 // console.log(bikeDetails);
 
-const personDetails = {
-  firstName: "Samir",
-  lastName: "Kc",
-  address: {
-    temporary: "A",
-    permanent: "B",
-  },
-};
+// const personDetails = {
+//   firstName: "Samir",
+//   lastName: "Kc",
+//   address: {
+//     temporary: "A",
+//     permanent: "B",
+//   },
+// };
 
-console.log(personDetails.address.permanent);
-console.log(personDetails["address"]["permanent"]);
-console.log(personDetails.address["permanent"]);
-console.log(personDetails["address"].permanent);
+// console.log(personDetails.address.permanent);
+// console.log(personDetails["address"]["permanent"]);
+// console.log(personDetails.address["permanent"]);
+// console.log(personDetails["address"].permanent);
 
-//square bracket
-let phoneDetails = {
-  name: "iphone15",
-  price: "150k",
-  amount: "150k",
-};
+// //square bracket
+// let phoneDetails = {
+//   name: "iphone15",
+//   price: "150k",
+//   amount: "150k",
+// };
 
-let someField = "price";
-console.log(phoneDetails[`${someField}`]);
+// let someField = "price";
+// console.log(phoneDetails[`${someField}`]);
+
+// object assignment
